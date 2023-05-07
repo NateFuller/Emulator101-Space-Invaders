@@ -155,7 +155,7 @@ void add_common(uint16_t answer, State8080 *state)
 
 uint8_t parity(uint8_t value)
 {
-    uint8_t parity = 0;
+    uint8_t parity = 1;
     while (value)
     {
         parity = !parity;
